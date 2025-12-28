@@ -1,0 +1,14 @@
+# Sanal Ortam klasörleri
+venv/
+mlops/
+.env
+
+# Python önbellek dosyaları
+__pycache__/
+*.py[cod]
+
+# MacOS gereksiz dosyaları
+.DS_Store
+
+# Eğitilmiş modeli de şimdilik yollayalım (Normalde DVC kullanılır ama basitleştirelim)
+# model.joblib
